@@ -1,13 +1,14 @@
 {% extends 'base.html' %}
 
 {% block head %}
-  <title>Testing</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+	<title>Testing</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 
 {% endblock %}
 
 {% block nav %}
 	<a href="{{ url_for('index') }}">Home</a>
+
 {% endblock %}
 
 {% block body %}
@@ -19,5 +20,6 @@
 		<button type="submit">Login</button>
 	</form>
 
-  <h1>Your name is: {{name}}</h1>
+  	<h1>Your name is: {{name}}</h1>
+
 {% endblock %}
