@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+  <title>Testing</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+{% endblock %}
+
+{% block nav %}
+	<a href="{{ url_for('index') }}">Home</a>
+{% endblock %}
+
+{% block body %}
+	<form action="{{ url_for('index')}}" method="post">
+		<label for="firstname">First Name:</label>
+		<input type="text" id="firstname" name="fname" placeholder="firstname">
+		<label for="lastname">Last Name:</label>
+		<input type="text" id="lastname" name="lname" placeholder="lastname">
+		<button type="submit">Login</button>
+	</form>
+
+  <h1>Your name is: {{name}}</h1>
+{% endblock %}
