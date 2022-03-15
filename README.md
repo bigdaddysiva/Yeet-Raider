@@ -1,2 +1,4 @@
 # Yeet-Raider
-RPG
+Sussy
+Baka
+Idk what thid id tho
