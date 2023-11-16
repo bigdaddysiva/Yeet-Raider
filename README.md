@@ -1,4 +1,3 @@
 # Yeet-Raider
-Sussy
-Baka
-Idk what thid id tho
+## Game Description
+Single-Player RPG with simple battle mechanics
